@@ -1,0 +1,70 @@
+/* General body styling for context */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Container to center the card on the page */
+.card-container {
+    /* Margin around the entire card structure on the page */
+    margin: 20px; 
+}
+
+/* The core portfolio card styling */
+.portfolio-card {
+    background-color: #ffffff;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    /* --- Key Properties --- */
+
+    /* 1. Border: Creates a visible edge around the card */
+    border: 1px solid #ddd; 
+
+    /* 2. Padding: Adds space between the border and the internal content/text */
+    padding: 20px; 
+
+    /* 3. Margin: Adds space outside the border, separating it from other elements */
+    margin: 15px; 
+
+    /* -------------------- */
+}
+
+/* Image styling */
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Margin below the image */
+    margin-bottom: 15px; 
+}
+
+/* Content spacing */
+.card-content h2 {
+    margin: 0 0 5px 0; /* Remove default margins and add a small bottom margin */
+    color: #333;
+}
+
+.card-content p {
+    margin: 0 0 20px 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.card-content a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    /* Padding on the link itself */
+    padding: 10px 15px; 
+    border-radius: 5px;
+    display: inline-block;
+}
